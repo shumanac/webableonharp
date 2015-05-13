@@ -1,0 +1,156 @@
+/************************SVG************************/
+
+
+
+.tech {
+  fill: transparent;
+  stroke: #007BE1;
+}
+
+@-webkit-keyframes tech {
+  0% {
+    stroke-dasharray:0 790;
+  }
+  100% {
+    stroke-dasharray:790 0;
+  }
+
+}
+@-moz-keyframes tech {
+  0% {
+    stroke-dasharray:0 790;
+  }
+  100% {
+    stroke-dasharray:790 0;
+  }
+  
+}
+
+
+.tech {
+  -webkit-animation: tech  7s;
+  animation: tech 7s ;
+   -moz-animation: tech  7s;
+}
+
+
+@-webkit-keyframes reset {
+  0%{ stroke-dasharray:0 790;}
+  100%{stroke-dasharray:790 0;}
+}
+
+
+.capabilities li:hover{
+  opacity: .88;
+  background-color: #00003b;
+  animation: reset 7s .1;
+  -webkit-animation: reset 7s .1 ;
+
+}
+
+.social {
+  fill: transparent;
+  stroke: #007BE1;
+}
+
+@-webkit-keyframes social {
+  0% {
+    stroke-dasharray:0 790;
+  }
+  100% {
+    stroke-dasharray:790 0;
+  }
+}
+
+
+.social {
+  -webkit-animation: social  7s;
+  animation: social 7s ;
+}
+
+.strat {
+  fill: transparent;
+  stroke: #007BE1;
+}
+
+@-webkit-keyframes strat {
+  0% {
+    stroke-dasharray:0 790;
+  }
+  100% {
+    stroke-dasharray:790 0;
+  }
+}
+
+
+.strat {
+  -webkit-animation: strat  7s;
+  animation: strat 7s ;
+}
+
+
+.spiral {
+  fill: transparent;
+  stroke: #007BE1;
+}
+
+@-webkit-keyframes spiral {
+  0% {
+    stroke-dasharray:0 502.45;
+  }
+  100% {
+    stroke-dasharray:502.45 0;
+  }
+}
+
+
+.spiral {
+  -webkit-animation: spiral  2s;
+  animation: spiral 2s ;
+}
+
+
+.design {
+  fill: transparent;
+  stroke: #007BE1;
+}
+
+@-webkit-keyframes design {
+  0% {
+    stroke-dasharray:0 790;
+  }
+  100% {
+    stroke-dasharray:709 0;
+  }
+}
+
+
+.design {
+  -webkit-animation: design  7s;
+  animation: design 7s ;
+}
+
+
+
+
+.media {
+  fill: transparent;
+  stroke: #007BE1;
+}
+
+@-webkit-keyframes media {
+  0% {
+    stroke-dasharray:0 790;
+  }
+  100% {
+    stroke-dasharray:709 0;
+  }
+}
+
+
+.media {
+  -webkit-animation: media  7s;
+  animation: media 7s ;
+}
+
+/*****************************End of SVG**************************/

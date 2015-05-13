@@ -1,0 +1,53 @@
+h6{
+    font-family:'MuseoSans500';
+    color: #c1c3c9;
+    font-size:1.250em;        
+}
+h7{
+    font-family:'MuseoSans300';
+    color: #c1c3c9;
+    font-size: 0.813em;
+}
+h8 {
+    font-family:'MuseoSans300';
+    color: #3c3e42;
+    font-size:0.750em;
+
+}
+
+div.footer{
+  background-color:#000;
+  padding-top: 0;
+ /* height:18.125em;*/
+ /* position: fixed;*/
+  width: 100%;
+  bottom: 0;
+  /*z-index: -1;*/
+/*  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;*/
+}
+.center-div{
+    text-align: center;
+}
+.center-div img{
+    padding-top:2.500em;
+}
+.line hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.7%;
+}
+.list ul li {
+    display: inline;
+    
+}
+/*.social-icons{
+  padding-top: 0.6%;
+}*/
+.social-icons ul li {
+    display: inline;
+    padding: 0 2.8%;
+}
+.text{
+    margin-top: 0.7%;
+}

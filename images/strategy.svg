@@ -1,0 +1,18 @@
+    svg#Layer_1(version='1.1', xmlns:x='&ns_extend;', xmlns:i='&ns_ai;', xmlns:graph='&ns_graphs;', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='292px', height='228px', viewbox='-72.595 -37.936 292 228', enable-background='new -72.595 -37.936 292 228', xml:space='preserve')
+                    polyline.design(fill='none', stroke='#000000', stroke-width='2.0478', stroke-miterlimit='10', points='36.264,29.814 36.264,139.888 \
+      55.207,176.75 73.126,139.888 73.126,10.871 36.264,10.871 36.264,-6.535 73.126,-6.535 73.126,-25.478 36.264,-25.478 \
+      36.264,-6.535 ')
+            g
+                path.design(fill='none', stroke='#000000', stroke-width='2.0478', stroke-miterlimit='10', d='M72.966,140.85\
+  c-5.078-3.87-11.397-6.194-18.275-6.194c-6.872,0-13.191,2.324-18.268,6.188')
+           line.design(fill='none', stroke='#000000', stroke-width='2.0478', stroke-miterlimit='10', x1='45.894', y1='158.63', x2='64.013', y2='158.63')
+           g
+            g
+                rect.design(x='59.323', y='167.238', transform='matrix(-0.5487 -0.836 0.836 -0.5487 -51.4895 318.9698)', width='2.043', height='12.288')
+       
+            g
+                rect.design(x='81.571', y='151.987', transform='matrix(-0.5476 -0.8367 0.8367 -0.5476 -5.0506 314.8837)', width='2.047', height='13.641')
+      
+            g
+                rect.design(x='103.818', y='138.079', transform='matrix(-0.5492 -0.8357 0.8357 -0.5492 41.8935 311.0455)', width='2.048', height='12.289')
+            

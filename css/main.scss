@@ -1,0 +1,335 @@
+
+@import "scss/foundation";
+@import "style";
+@import "header";
+@import "footer";
+
+ @font-face {
+    font-family: 'MuseoSans'; 
+    src: url('../fonts/Museo Sans/MuseoSans.otf'); 
+  } 
+@font-face {
+    font-family: 'MuseoSans500'; 
+    src: url('../fonts/Museo Sans/MuseoSans500.otf'); 
+  } 
+@font-face {
+    font-family: 'MuseoSans700'; 
+    src: url('../fonts/Museo Sans/MuseoSans700.otf'); 
+  } 
+@font-face {
+    font-family: 'MuseoSans900'; 
+    src: url('../fonts/Museo Sans/MuseoSans900.otf'); 
+  } 
+
+$namespace: true;
+
+@mixin padding-top-bottom($number,$page-height) {
+    padding-top: $number / $page-height + 3.5em;
+    padding-bottom: $number / $page-height + 2em;
+}
+
+html {
+  overflow-y: scroll;
+}
+body {
+  background: #f7f7f7;
+  color: #333332;
+}
+h1{
+    font-family: 'MuseoSans';
+    text-transform: uppercase;
+    font-size:3.125em;
+}
+h2{
+    font-family:'MuseoSans';
+    font-size:1.5em;
+    color:#0063ab;
+    letter-spacing: 0.2px;
+
+}
+h3{
+    font-family: 'MuseoSans500';
+    font-size: 1.15em;
+    color: #0d306b;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 2rem;
+    
+}
+h5{
+    font-family:'MuseoSans500';
+    font-size:1.2em;
+    color:#0063ab;
+    letter-spacing: 0.2px;
+
+}
+p{
+    font-family: 'MuseoSans';
+    font-size:.95em;
+    line-height: 1.8;
+    color: #322f31;
+    letter-spacing: 0.5px;
+    color:rgb(47, 47, 47);
+}
+.well {
+  box-shadow: none;
+}
+.wrapper {
+  max-width: 94%;
+  margin: 0 auto;
+}
+.wrapper {
+    .capabilities {
+        @include padding-top-bottom(59,2850);
+    }
+    .client-logos {
+        background: url(images/Layer-17.png);
+        height: 730px;
+        margin: 43/2850 + 1em 3em;
+    }
+    .clientele {
+        @include padding-top-bottom(47,2850);
+    }
+    .strategy {
+        @include padding-top-bottom(99,6102);
+    }
+    .principles {
+        @include padding-top-bottom(99,2158);
+    }
+    .meet-the-team {
+        @include padding-top-bottom(99,2158);
+    }
+}
+/*header.wrapper {
+@extend .wrapper;
+z-index: 50;
+margin: 0 3%;
+position: absolute;
+top: 0px;
+padding-top: 2%;
+}*/
+.process-text.wrapper {
+    width: 100%;
+    max-width: 93.5rem;
+    margin: auto;
+}
+.main {
+  padding: 20px 0;
+}
+.who{
+    padding-right: 2.5%;
+    width:50%;
+}
+.process{
+    padding-left: 2.5%;
+    width:50%;
+}
+.about-b{
+    height:100%;
+}
+.hero-image {
+    background:url('http://placehold.it/1280x650')no-repeat center;
+     width: 1280px/1280px * 100%;
+    height: 80em;
+    position: relative;
+    top: 0px;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero-image .hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%)
+}
+.process-text {
+    position: inherit;
+    padding-top: 0px;
+    magrin-top: 37/3938 * 100%;
+}
+.team-at-work {
+    background-color: #ff00ea;
+    @extend .full-width
+}
+.team-at-work {
+    li {
+        list-style: none;
+    }
+    right {
+        width: 854/1280 * 100%;
+    }
+    left: {
+        width: 854/(2*1280) * 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+.team-pics {
+    .columns img {
+        width: 100%;
+        height: auto;
+    }
+    .columns {
+        position: relative;
+    }
+}
+.client {
+    background-color: #6f316a;
+    height: 320px;
+}
+.grey {
+    background-color: lightgrey;
+    padding-top: 24/2850 * 100%;
+    padding-bottom: 20/2850 * 100%;
+    color: #9d9daa;
+}
+.grey h4 {
+    color: #9d9daa;
+}
+.six-capabilities {
+    .capability-boxes {
+        border: 5px #67686a;
+        height: auto;
+               
+    }
+    .capabilities-text {
+        padding: 138/320 * 100% / 2 + 2% 122/426 * 100% / 2 + 2%;
+        margin-bottom: 11 / 2850 * 100%;
+    }
+    .capabilities-text p {
+        margin-bottom: 0 !important;
+    }
+}
+.about{
+margin:4rem auto;
+}
+.strategy-grid {
+    .columns img {
+    width: 100%;
+    }
+    .columns.large-8 img {
+        height: 100%;
+    }
+}
+.wrapper.capability-details .strategy h2 {
+    padding-bottom: 0.8em;
+}
+
+
+.culture{
+    padding-left:4.9%;
+    h2{
+        text-transform: uppercase;
+        
+    }
+    p{
+        color:#000;
+        
+    }
+}
+.culpic{
+    .columns img{
+        width:100%;
+        height: auto;
+    }
+    margin-bottom: 3.9%;
+}
+.culture-code{
+    
+    .row{
+     max-width:100%;
+     padding-left: 4.9%;
+    
+    }
+    h2{
+        text-transform: uppercase;
+        padding-bottom: 2.1%;
+    }
+    .coloumns{
+        padding-top: 1.6%;
+        padding-bottom: 1.9%;
+    }
+}
+
+hr{
+    width: 3.9%;
+    margin-left: 4.9%;
+   
+}
+
+.ins .row h2{
+  margin-top: 1.5%;
+}
+.instagram {
+    margin-top: 1.1%;
+    .columns img {
+        width: 100%;
+        height: auto;
+    }
+    .columns {
+        position: relative;
+    }
+    
+}
+
+.show_more{ 
+    width: 100%;
+    height: 3.750em;
+    h3: {
+       text-align: center;
+       text-transform: uppercase;
+    }
+}
+.work_pic {
+    top: 30px;
+    margin-top: 3%!important;
+    @extend .team-pics;
+}
+/**************Capabilities************/
+/************Contact***************/
+.contact{
+    margin-top:8.375em;
+    margin-left:4.9%;
+    margin-right: 5%;
+}
+   #map-canvas {
+        width: 100%;
+        height: 28.125em;
+      }
+.con-f{
+ @extend .team-pics;
+}
+/***************Branding*****************/
+.cs-branding{
+    margin-left: 4.9%;
+    width: 71.5em;
+}
+.branding-image{
+    background: url('http://placehold.it/1280x650')no-repeat center fixed;
+    width: 1280px/1280px * 100%;
+    height: 80em;
+    position: relative;
+    top: 0px;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.branding-image .hero-text {
+   @extend .hero-image .hero-text;
+}
+h10{
+ font-family: 'MuseoSans';
+ color: #fff;
+ margin-top: 86.3%;
+    font-size: 1.5;
+}
