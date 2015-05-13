@@ -39,3 +39,13 @@ function initialize() {
 ]);
               }
       google.maps.event.addDomListener(window, 'load', initialize);
+$('.team-pic').hover(function(){
+    console.log("Hovered!");
+    $(this).children(".overlay").css("background-color","rgba(0,0,0,0.6)");
+    $(this).children("h5").show("easeIn").slideDown;
+},
+    function() {
+         $(this).children(".overlay").css("background-color","rgba(0,0,0,0)");
+        $(this).children("h5").hide("easOut");
+    }
+);

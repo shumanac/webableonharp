@@ -74,7 +74,7 @@ p{
   box-shadow: none;
 }
 .wrapper {
-  max-width: 94%;
+  max-width: 90%;
   margin: 0 auto;
 }
 .wrapper {
@@ -97,6 +97,9 @@ p{
     }
     .meet-the-team {
         @include padding-top-bottom(99,2158);
+    }
+    .culture {
+        padding-top: 5%;
     }
 }
 /*header.wrapper {
@@ -129,9 +132,9 @@ padding-top: 2%;
 .hero-image {
     background:url('http://placehold.it/1280x650')no-repeat center;
      width: 1280px/1280px * 100%;
-    height: 80em;
+    height: 100%;
     position: relative;
-    top: 0px;
+    top: -1%;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -143,9 +146,11 @@ padding-top: 2%;
     transform: translateY(50%)
 }
 .process-text {
-    position: inherit;
-    padding-top: 0px;
-    magrin-top: 37/3938 * 100%;
+    padding-top: 5%;
+    width: 45%;
+}
+.principle-text {
+    padding-right: 1.5% !important;
 }
 .team-at-work {
     background-color: #ff00ea;
@@ -180,6 +185,26 @@ padding-top: 2%;
     }
     .columns {
         position: relative;
+    }
+    .team-pic h5,p {
+        position: absolute;
+        padding: 2% 5%;
+        display: none;
+        color: white;
+    }
+    .team-pic h5.name {
+        top: 5%;
+    }
+    .team-pic h5.position {
+        top: 10%;
+    }
+    .team-pic h5.twitter {
+        bottom: 5%;
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
     }
 }
 .client {
@@ -226,14 +251,11 @@ margin:4rem auto;
 
 
 .culture{
-    padding-left:4.9%;
     h2{
         text-transform: uppercase;
-        
     }
     p{
         color:#000;
-        
     }
 }
 .culpic{
@@ -244,19 +266,17 @@ margin:4rem auto;
     margin-bottom: 3.9%;
 }
 .culture-code{
-    
-    .row{
-     max-width:100%;
-     padding-left: 4.9%;
-    
-    }
     h2{
         text-transform: uppercase;
         padding-bottom: 2.1%;
     }
-    .coloumns{
+    .coloumns {
         padding-top: 1.6%;
         padding-bottom: 1.9%;
+        padding-right: 1.5% !important;
+    }
+    .culture-p .columns {
+        padding-right: 1.5% !important;
     }
 }
 
@@ -290,8 +310,8 @@ hr{
     }
 }
 .work_pic {
-    top: 30px;
-    margin-top: 3%!important;
+    top: 5%;
+    padding-top: 5%;
     @extend .team-pics;
 }
 /**************Capabilities************/
@@ -309,6 +329,14 @@ hr{
  @extend .team-pics;
 }
 /***************Branding*****************/
+.cs-branding-hero {
+    height: 100%;
+}
+.hero-text {
+    position: absolute;
+    bottom: 1%;
+    @extend .wrapper
+}
 .cs-branding{
     margin-left: 4.9%;
     width: 71.5em;
@@ -316,7 +344,7 @@ hr{
 .branding-image{
     background: url('http://placehold.it/1280x650')no-repeat center fixed;
     width: 1280px/1280px * 100%;
-    height: 80em;
+    height: 100%;
     position: relative;
     top: 0px;
      -webkit-background-size: cover;
@@ -324,12 +352,12 @@ hr{
   -o-background-size: cover;
   background-size: cover;
 }
-.branding-image .hero-text {
-   @extend .hero-image .hero-text;
-}
 h10{
  font-family: 'MuseoSans';
  color: #fff;
  margin-top: 86.3%;
     font-size: 1.5;
+}
+.about-b .columns {
+    height: 100%
 }
