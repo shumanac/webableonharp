@@ -1,5 +1,14 @@
 $(document).foundation();
 
+$('.team-pic').hover(function(){
+    $(this).children(".overlay").css("background-color","rgba(0,0,0,0.6)");
+    $(this).children("h5").show("easeIn").slideDown;
+},
+    function() {
+         $(this).children(".overlay").css("background-color","rgba(0,0,0,0)");
+        $(this).children("h5").hide("easOut");
+    }
+);
 function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
@@ -39,13 +48,29 @@ function initialize() {
 ]);
               }
       google.maps.event.addDomListener(window, 'load', initialize);
-$('.team-pic').hover(function(){
-    console.log("Hovered!");
-    $(this).children(".overlay").css("background-color","rgba(0,0,0,0.6)");
-    $(this).children("h5").show("easeIn").slideDown;
-},
-    function() {
-         $(this).children(".overlay").css("background-color","rgba(0,0,0,0)");
-        $(this).children("h5").hide("easOut");
-    }
-);
+
+(function() {
+  var body = document.getElementsByClassName('overlay2')[0];
+  var burgerContain = document.getElementsByClassName('burger-contain')[0];
+  var burgerNav = document.getElementsByClassName('burger-nav')[0];
+  var burgerBrand = document.getElementsByClassName('burger-brand')[0];
+
+  burgerContain.addEventListener('click', function toggleClasses() {
+    [body, burgerContain, burgerNav, burgerBrand].forEach(function (el) {
+      el.classList.toggle('open');
+    });
+  }, false);
+})();
+
+
+$('.strate').hover(function(){
+   
+    $(".strategy").show();    
+}, function() {
+    $(".strategy").hide();
+});
+
+
+ 
+ 
+ 
