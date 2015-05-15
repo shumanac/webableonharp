@@ -1,0 +1,214 @@
+.top-bar{
+    background-color: transparent;
+}
+
+//.logo{
+//    margin-left:3%;
+//    margin-top: 1.1%;
+//}
+
+.header {
+    max-width: 94%;
+    margin: auto;
+}
+
+/* css for right menu*/
+
+.burger-link {
+  color: #fff;
+  font-family: Helvetica Neue, Helvetica, Sans-Serif;
+  font-size: 6vh;
+  font-weight: bold;
+  text-decoration: none;
+  width: auto;
+}
+
+.burger {
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  
+  position: relative;
+  
+  z-index: 12;
+}
+
+.bun {
+  background: #0d306b;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+}
+
+.bun-top {
+  height: 4px;
+  top: 0px;
+  width: 24px;
+}
+
+.bun-mid {
+  height: 4px;
+  top: 4px;
+  width: 24px;
+}
+
+.bun-bottom {
+  height: 4px;
+  top: 8px;
+  width: 24px;
+}
+
+
+.burger-contain {
+    padding-top: 1%;
+}
+
+
+/*burger animation*/
+
+.burger-contain.open .bun-top {
+  background: #fff;
+  top: 8px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.burger-contain.open .bun-mid {
+  opacity: 0;
+}
+.burger-contain.open .bun-bottom {
+  background: #fff;
+  top: 0px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/* menu list animation */
+
+
+div.burger-nav.open > li {
+  padding: 10px;
+  color: white;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay2.open {
+    background-color: #0D306b;
+    position: fixed;
+}
+
+
+
+//.overlay2:after {
+//  top: 0;
+//  -webkit-transition: all 0.4s ease;
+//          transition: all 0.4s ease;
+//}
+
+
+.burger-nav {
+  font-family: Helvetica Neue, Helvetica, Sans-Serif;
+  position: absolute;
+  z-index: 11;
+  top: 25%;
+  width:100%;
+}
+.burger-nav li {
+
+  color: #fff;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center !important;
+  -webkit-transform: translateX(250px);
+      -ms-transform: translateX(250px);
+          transform: translateX(250px);
+    
+}
+.burger-nav li:not(.open) {
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: slideOutTop;
+          animation-name: slideOutTop;
+}
+
+.burger-nav.open li {
+    display: block;
+  
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: slideInTop;
+          animation-name: slideInTop;
+}
+
+
+
+.burger-nav.open > li:hover {
+  border:0px solid white;
+  color: blue !important;
+  background: white;
+  color: #008CBA;
+}
+
+
+
+/* transition */
+
+@-webkit-keyframes slideInTop {
+  0% {
+    -webkit-transform: translate3d(0px, -250px, 0);
+            transform: translate3d(-0px, -250px, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInTop {
+  0% {
+    -webkit-transform: translate3d(0, -250px, 0);
+            transform: translate3d(0, -250px, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes slideOutTop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 250px, 0);
+            transform: translate3d(0px, 250px, 0);
+    visibility: hidden;
+  }
+}
+@keyframes slideOutTop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 250px, 0);
+            transform: translate3d(0, 250px, 0);
+    visibility: hidden;
+  
+  }
+}
+
+.body-scrolling {
+    overflow-y: hidden;
+}
+
