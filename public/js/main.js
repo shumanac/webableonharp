@@ -49,24 +49,6 @@ function initialize() {
               }
       google.maps.event.addDomListener(window, 'load', initialize);
 
-(function() {
-  var body = document.getElementsByClassName('overlay2')[0];
-  var burgerContain = document.getElementsByClassName('burger-contain')[0];
-  var burgerNav = document.getElementsByClassName('burger-nav')[0];
-  var burgerBrand = document.getElementsByClassName('burger-brand')[0];
-
-  burgerContain.addEventListener('click', function toggleClasses() {
-    $("body").toggleClass("body-scrolling");
-    $(".burger-nav").delay(1000).toggleClass("hide");
-    $(body).delay(2000).toggleClass("open");
-    $(burgerContain).toggleClass("open");
-    $(burgerBrand).toggleClass("open");
-    $(burgerNav).toggleClass("open");
-    
-}
-    , false);
-})();
-
 $(document).ready(
     function() { 
     $("html").niceScroll({
@@ -90,4 +72,7 @@ $(".capability-item").hover(function() {
 });
  
  
- 
+ $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay2').toggleClass('open');
+  });
