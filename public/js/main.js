@@ -68,7 +68,8 @@ $(document).ready(
         mousescrollstep: "80",
         cursorcolor: "#0D306b",
         cursorwidth: "8",
-        cursorborderradius: "0"
+        cursorborderradius: "0",
+        zindex:"10"
     });
   }
 );
@@ -113,9 +114,9 @@ $( "#show_more" ).click(function() {
 });
 
 
- $(function(){
+/* $(function(){
      $(".cs").click(function(){$("html,body").animate({scrollTop:$("#case-studies").offset().top},"500");return true})})
   $(function(){
       $(".cp").click(function(){$("html,body").animate({scrollTop:$("#cap").offset().top},"500");return true})})
    $(function(){
-      $(".cl").click(function(){$("html,body").animate({scrollTop:$("#client").offset().top},"500");return true})})
+      $(".cl").click(function(){$("html,body").animate({scrollTop:$("#client").offset().top},"500");return true})});*/
