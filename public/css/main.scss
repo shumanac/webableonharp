@@ -398,16 +398,16 @@ hr{
 .hero-text {
     position: absolute;
     bottom: 1%;
-    @extend .wrapper
+    @extend .wrapper;
 }
 .cs-branding{
     margin-left: 4.9%;
     width: 71.5em;
 }
 .branding-image{
-    background: url('http://placehold.it/1280x650')no-repeat center fixed;
+    background: url('http://placehold.it/1280x650')no-repeat center;
     width: 1280px/1280px * 100%;
-    height: 100%;
+    height: 40.625em;
     position: relative;
     top: 0px;
      -webkit-background-size: cover;
