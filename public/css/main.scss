@@ -318,18 +318,56 @@ hr{
     
 }
 
-.show_more{ 
+
+#show_more{ 
     width: 100%;
     height: 3.750em;
-    h3: {
-       text-align: center;
-       text-transform: uppercase;
-    }
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.125em;
+  
+}
+
+#show_more h11{
+    vertical-align: middle;
+    color: #9d9daa!important;
+    margin-top: 40%;
+}
+.hidden { 
+  display: none; 
 }
 .work_pic {
     top: 5%;
     padding-top: 5%;
     @extend .team-pics;
+}
+
+.work_pic {
+    .columns img {
+        width: 100%;
+        height: auto;
+    }
+    .columns {
+        position: relative;
+    }
+    .work-prof h5,p {
+        position: absolute;
+        padding: 2% 5%;
+        display: none;
+        color: white;
+    }
+    .work-prof h5.clientprof {
+        top: 65%;
+    }
+    .work-prof p{
+        top: 5%;
+    }
+
+    .workhover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
 }
 /**************Capabilities************/
 /************Contact***************/

@@ -9,6 +9,18 @@ $('.team-pic').hover(function(){
         $(this).children("h5").hide("easOut");
     }
 );
+$('.work-prof').hover(function(){
+    $(this).children(".workhover").css("background-color","rgba(13,48,107,1)");
+    $(this).children("h5").show("easeIn").slideDown;
+     $(this).children("p").show("easeIn").slideDown;
+},
+    function() {
+         $(this).children(".workhover").css("background-color","rgba(0,0,0,0)");
+        $(this).children("h5").hide("easOut");
+        $(this).children("p").hide("easOut");
+    
+    }
+);
 function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
@@ -76,3 +88,26 @@ $(".capability-item").hover(function() {
    $(this).toggleClass('active');
    $('#overlay2').toggleClass('open');
   });
+
+    var $items = $(".work-prof");
+    $items.hide();
+    $items.slice(0, Math.floor($items.length/2)).show();
+ 
+$( "#show_more" ).click(function() {
+  
+     var $items = $(".work-prof");
+    $items.show();
+    $('#show_more').addClass('hidden');
+});
+
+    var $items = $(".ins");
+    $items.hide();
+    $items.slice(0, Math.ceil($items.length/3)).show();
+
+    
+$( "#show_more" ).click(function() {
+  
+     var $items = $(".ins");
+    $items.show();
+    $('#show_more').addClass('hidden');
+});
