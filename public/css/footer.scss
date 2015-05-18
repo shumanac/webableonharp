@@ -5,21 +5,22 @@ h6{
     font-size:1.250em;        
 }
 h7{
-    font-family:'MuseoSans300';
-    color: #c1c3c9;
-    font-size: 0.813em;
+    font-family: 'MuseoSans500'!important;
+    font-size: 0.79em;
+    color: #BFC1C7;
+    letter-spacing: 0.9px;
 }
 h8 {
-    font-family:'MuseoSans300';
-    color: #3c3e42;
-    font-size:0.750em;
+    font-family: 'MuseoSans500'!important;
+    color: #3C3E42;
+    font-size: 0.75em;
 
 }
 
 .footer{
-  background-color:#000;
+  background-color:#1F1F21;
   padding-top: 0;
-  height:18.125em;
+  height:21.125em;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -31,12 +32,17 @@ h8 {
     text-align: center;
 }
 .center-div img{
-    padding-top:2.500em;
+    padding-top:3.500em;
 }
 .line hr{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.7%;
+    margin-top:1.5%;
+    width: 75px;
+}
+list{
+    margin-bottom: 8px;
+    top: 1px;
 }
 .list ul li {
     display: inline;
@@ -45,9 +51,16 @@ h8 {
 /*.social-icons{
   padding-top: 0.6%;
 }*/
+.social-icons{
+     margin-top: 1px;
+    
+}
 .social-icons ul li {
     display: inline;
-    padding: 0 2.8%;
+    padding: 0px 1.1em;
+    font-size: 1.3em;
+    color: #BFC1C7;
+   
 }
 .text{
     margin-top: 0.7%;
@@ -55,9 +68,11 @@ h8 {
 .mid-body {
   position: relative;
   z-index: 3;
-  margin-bottom: 18.125em;
+  margin-bottom:19.125em;
   background-color: #fff;
   width: 100%;
 }
-
+.text-f {
+margin-bottom: 45px;
+}
 

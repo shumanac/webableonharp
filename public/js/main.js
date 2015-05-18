@@ -114,6 +114,9 @@ $( "#show_more" ).click(function() {
 });
 
 
+
+
+
 /* $(function(){
      $(".cs").click(function(){$("html,body").animate({scrollTop:$("#case-studies").offset().top},"500");return true})})
   $(function(){

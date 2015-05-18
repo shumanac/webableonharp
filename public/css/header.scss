@@ -1,12 +1,19 @@
 .top-bar{
     background-color: transparent;
+    min-height: 65px;
+    width: 100%;
 }
-
+.trans{
+     background-color: transparent;
+}
 //.logo{
 //    margin-left:3%;
 //    margin-top: 1.1%;
 //}
+.darkblue {
+    background-color: #0d306b !important;
 
+}
 .header {
     max-width: 94%;
     margin: auto;
