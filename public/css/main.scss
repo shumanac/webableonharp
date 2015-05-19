@@ -219,26 +219,122 @@ p{
     height: 320px;
 }
 .grey {
-    background-color: lightgrey;
+    background-color:#efefef;
     padding-top: 24/2850 * 100%;
     padding-bottom: 20/2850 * 100%;
     color: #9d9daa;
 }
 .grey h4 {
-    color: #9d9daa;
+   
+    color: #67686a;
 }
-.six-capabilities {
-    .capabilities-text {
-        padding: 138/320 * 100% / 2 + 2% 122/426 * 100% / 2 + 2%;
-        margin-bottom: 11 / 2850 * 100%;
+
+
+.six-capabilities .columns{
+    background-color:#efefef;
+    height: 20em;
+
+}
+.capability-boxes{
+    border:1px #fff solid;
+}
+.capabilities-text {
+       padding:138/320 * 100%/2 + 2% 122/426 * 100% /2 + 2%;
+        text-align: center;
+        
     }
     .capabilities-text p {
-        margin-bottom: 0 !important;
+        font-family: 'MuseoSans';
+        font-size: 1.263em;
+        margin-bottom: 0.4%;
+    }
+ .capabilities-text h4{
+        font-family: 'MuseoSans700';
+        color:#67686a;
+        font-size: 1.925em;
+        
+    }
+ .capability-item {
+        position: relative;
+       
+    }
+.white p {
+    color: white !important;
+}
+.white h4.capability-heading {
+    color: white !important;
+}
+
+.capability-svg {
+        //@extend .capabilities-text;
+        position: absolute;
+        top: 0;
+        left: 0;   
+        width:100%;
         height: 100%;
+        text-align: center;
+svg {
+    position: absolute;
+    top: 25%;
+    left: 35%;    
+} 
+.strategy{
+     background-color: #cf4242; 
+     height: 20em;
+    
+}
+ .design{
+    background-color: #a1cc2e;
+    height: 20em;
+    
+}
+.develop{
+    background-color: #37ce7a;
+    height: 20em;
+    
+  
+}
+.social{
+    background-color: #e68f41;
+    height: 20em;
+    
+  
+}
+.media{
+    background-color: #1eaad8;
+    height: 20em;
+    
+   
+}
+.inter{
+    background-color: #4677cd;
+    height: 20em;
+    
+     
+}
+        }
+/*.six-capabilities {
+  
+    .columns{
+        background-color: #efefef;
+      
+    }
+    .capabilities-text {
+        text-align: center;
+    }
+    .capabilities-text p {
+       
+        font-family: 'MuseoSans300';
+        font-size: 1.263em;
+    }
+    .capabilities-text h4{
+        font-family: 'MuseoSans700';
+        color:#67686a;
+        font-size: 1.625em;
     }
     .capability-item {
         position: relative;
-        height: 100%;
+       
     }
     .capability-svg {
         @extend .capabilities-text;
@@ -257,7 +353,7 @@ p{
         color: white;
         z-index: 15;
     }
-}
+}*/
 .about{
 margin:4rem auto;
 }
@@ -391,13 +487,13 @@ hr{
 .con-f{
  @extend .team-pics;
 }
-/***************Branding*****************/
+/***************case-studies*****************/
 .cs-branding-hero {
     height: 100%;
 }
 .hero-text {
     position: absolute;
-    bottom: 1%;
+    bottom: 2%;
     @extend .wrapper;
 }
 .cs-branding{
@@ -416,6 +512,13 @@ hr{
 }
 .client{
     background-color: #efefef;
+    width: 100%;
+    height:40vh;
+}
+ .client-text {
+    padding-top: 5%;
+    margin-left: 4.9%;
+    width: 71.5em;
 }
 .branding-image{
     background: url('http://placehold.it/1280x650')no-repeat center;

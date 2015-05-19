@@ -75,13 +75,11 @@ $(document).ready(
 );
 
 $(".capability-item").hover(function() {
-    $(this).children(".capabilities-text").children().fadeTo("slow",0);
     $(this).children(".capability-svg").show();
-    $(this).children(".capability-details").show();
+    /* $(this).children(".capability-details").show();*/
 }, function() {
     $(this).children(".capability-svg").hide();
-    $(this).children(".capabilities-text").children().fadeTo("slow",1);
-    $(this).children(".capability-details").hide();
+    $/*(this).children(".capability-details").hide();*/
 });
  
  
