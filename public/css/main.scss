@@ -84,10 +84,12 @@ p{
     }
     .client-logos {
         height: 87.3%;
-        width:84.2%;
+        max-width:94.2%;
         margin: 43/2850 + 1em 3em;
+        padding-top:6%;
     }
-    .clientele {
+ 
+   /* .clientele {
         @include padding-top-bottom(47,2850);
     }
     .strategy {
@@ -101,7 +103,7 @@ p{
     }
     .culture {
         padding-top: 5%;
-    }
+    }*/
 }
 
 .links{
@@ -117,10 +119,24 @@ p{
     float:left;
     
 }
+.button.small{
+    background-color: #ed4523;
+}
 .process-text.wrapper {
     width: 100%;
-    max-width: 93.5rem;
+    max-width: 99.5rem;
     margin: auto;
+}
+.principle-text{
+    width: 40%;
+}
+
+.our-cap{
+   width:9.7vw;
+    float: right;
+}
+.two{
+    margin-right:4%;
 }
 .main {
   padding: 20px 0;
@@ -233,11 +249,11 @@ p{
 .six-capabilities .columns{
     background-color:#efefef;
     height: 20em;
+    border: .063em #fff solid;
+    -moz-box-sizing: border-box;
 
 }
-.capability-boxes{
-    border:1px #fff solid;
-}
+
 .capabilities-text {
        padding:138/320 * 100%/2 + 2% 122/426 * 100% /2 + 2%;
         text-align: center;
@@ -247,6 +263,7 @@ p{
         font-family: 'MuseoSans';
         font-size: 1.263em;
         margin-bottom: 0.4%;
+        color:#67686a;
     }
  .capabilities-text h4{
         font-family: 'MuseoSans700';
@@ -264,7 +281,9 @@ p{
 .white h4.capability-heading {
     color: white !important;
 }
-
+.capabilities-text.white{
+    @extend .capabilities-text;
+}
 .capability-svg {
         //@extend .capabilities-text;
         position: absolute;
@@ -276,7 +295,7 @@ p{
 svg {
     position: absolute;
     top: 25%;
-    left: 35%;    
+    left: 33.5%;    
 } 
 .strategy{
      background-color: #cf4242; 
@@ -313,47 +332,17 @@ svg {
      
 }
         }
-/*.six-capabilities {
-  
-    .columns{
-        background-color: #efefef;
-      
-    }
-    .capabilities-text {
-        text-align: center;
-    }
-    .capabilities-text p {
-       
-        font-family: 'MuseoSans300';
-        font-size: 1.263em;
-    }
-    .capabilities-text h4{
-        font-family: 'MuseoSans700';
-        color:#67686a;
-        font-size: 1.625em;
-    }
-    .capability-item {
-        position: relative;
-       
-    }
-    .capability-svg {
-        @extend .capabilities-text;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: #9d9daa;
-    }
-    .capability-details {
-        @extend .capabilities-text;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        color: white;
-        z-index: 15;
-    }
-}*/
+.bck-client{
+    background-color:#efefef;
+    width: 100%;
+    height: 25.6%;
+}
+.bck-client hr{
+    height:12.3%;
+    width: 92.6%;
+    left: 1.7%;
+    color: #efefef;
+}
 .about{
 margin:4rem auto;
 }
@@ -433,9 +422,11 @@ hr{
 }
 
 #show_more h11{
-    vertical-align: middle;
+    line-height: 4;
     color: #9d9daa!important;
     margin-top: 40%;
+    font-family: 'MuseoSans700';
+    
 }
 .hidden { 
   display: none; 
@@ -557,7 +548,7 @@ h10{
 /**************SVG***********************/
 .circle {
   fill: transparent;
-  stroke: blue;
+  stroke: rgba(255,255,255,0.3);
 }
 
 @-webkit-keyframes circle {
@@ -607,7 +598,7 @@ h10{
 
 .social {
   fill: transparent;
-  stroke: blue;
+  stroke: rgba(255,255,255,0.3);
 }
 
 @-webkit-keyframes social {
@@ -636,7 +627,7 @@ h10{
 
 .strat {
   fill: transparent;
-  stroke: blue;
+  stroke: rgba(255,255,255,0.3);
 }
 
 @-webkit-keyframes strat {
@@ -665,7 +656,7 @@ h10{
 
 .spiral {
   fill: transparent;
-  stroke: blue;
+  stroke: rgba(255,255,255,0.3);
 }
 
 @-webkit-keyframes spiral {
@@ -694,7 +685,7 @@ h10{
 
 .design {
   fill: transparent;
-  stroke: blue;
+  stroke: rgba(255,255,255,0.3);
 }
 
 @-webkit-keyframes design {
@@ -723,7 +714,7 @@ h10{
 
 .media {
   fill: transparent;
-  stroke: blue;
+  stroke:rgba(255,255,255,0.3);
 }
 
 @-webkit-keyframes media {

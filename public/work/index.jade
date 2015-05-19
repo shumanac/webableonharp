@@ -45,13 +45,13 @@
 .clear
 .row.wrapper#cap
     .capabilities
-        h2 OUR CAPABILITIES
+        h3 OUR CAPABILITIES
         br
-        p Lorem Ipsum some text here and there and here is osme more!
+        p Lorem Ipsum some text here and there and here is osme more!Lorem Ipsum some text here and there and here is osmeLorem Ipsum some text here and there and here is osmeLorem Ipsum some text here and there and here is osmeLorem Ipsum some text here and there and here is osme
 .clear
-.row.full-width.six-capabilities
+.row.full-width.six-capabilities.collapse
     .small-12.medium-4.large-4.columns.capability-boxes.capability-item
-        .capabilities-text.capabilities-text-w
+        .capabilities-text
             p 01.
             h4.capability-heading STRATEGY
         .capability-svg.hide
@@ -111,6 +111,9 @@
        
         .capability-svg.hide
           .design
+            .capabilities-text.white
+                p 02.
+                h4.capability-heading DESIGN
             svg#Layer_1(version='1.1', xmlns:x='&ns_extend;', xmlns:i='&ns_ai;', xmlns:graph='&ns_graphs;', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='146.809px', height='152.128px', viewbox='-72.595 -37.936 292 228', enable-background='new -72.595 -37.936 292 228', xml:space='preserve')
                 polyline.design(fill='none', stroke='#000000', stroke-width='2.0478', stroke-miterlimit='10', points='36.264,29.814 36.264,139.888 \
       55.207,176.75 73.126,139.888 73.126,10.871 36.264,10.871 36.264,-6.535 73.126,-6.535 73.126,-25.478 36.264,-25.478 \
@@ -136,6 +139,9 @@
       
          .capability-svg.hide
            .develop
+             .capabilities-text.white
+                p 03.
+                h4.capability-heading DEVELOPMENT
              svg#Layer_1(version='1.1', xmlns:x='&ns_extend;', xmlns:i='&ns_ai;', xmlns:graph='&ns_graphs;', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px',  width='146.809px', height='152.128px', viewbox='0 0 146.809 152.128', enable-background='new 0 0 146.809 152.128', xml:space='preserve')
                 g
                     polyline.circle(fill='none', stroke='#000000', stroke-width='1.2813', stroke-miterlimit='10', points='50.448,52.787 27.171,76.064 \
@@ -148,7 +154,7 @@
                     polyline.circle(fill='none', stroke='#000000', stroke-width='1.2813', stroke-miterlimit='10', points='119.317,122.191 131.489,122.191 \
         131.489,29.938 119.317,29.938 ')
      
-.row.full-width.six-capabilities       
+.row.full-width.six-capabilities.collapse      
         
     .small-12.medium-4.large-4.columns.capability-boxes.capability-item
         .capabilities-text
@@ -157,6 +163,9 @@
        
         .capability-svg.hide
           .social
+             .capabilities-text.white
+                p 04.
+                h4.capability-heading SOCIAL MEDIA MARKETING
             svg#Layer_1(version='1.1', xmlns:x='&ns_extend;', xmlns:i='&ns_ai;', xmlns:graph='&ns_graphs;', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='146.809px', height='152.128px', viewbox='0 0 146.809 152.128', enable-background='new 0 0 146.809 152.128', xml:space='preserve')
                 line.social(fill='none', stroke='#000000', stroke-width='1.2917', stroke-miterlimit='10', x1='52.396', y1='46.513', x2='79.553', y2='46.513')
                 line.social(fill='none', stroke='#000000', stroke-width='1.2917', stroke-miterlimit='10', x1='52.396', y1='59.834', x2='121.521', y2='59.834')
@@ -171,6 +180,9 @@
             h4.capability-heading DIGITAL MEDIA BUYING
         .capability-svg.hide
           .media
+            .capabilities-text.white
+                p 05.
+                h4.capability-heading DIGITAL MEDIA BUYING
             svg#Layer_1(version='1.1', xmlns:x='&ns_extend;', xmlns:i='&ns_ai;', xmlns:graph='&ns_graphs;', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='146.809px', height='152.128px', viewbox='0 0 146.809 152.128', enable-background='new 0 0 146.809 152.128', xml:space='preserve')
                 polyline.media(fill='none', stroke='#000000', stroke-width='1.22', stroke-miterlimit='10', points='23.019,46.13 123.79,46.13 \
       123.79,105.998 23.019,105.998 23.019,56.169 ')
@@ -187,6 +199,9 @@
             h4.capability-heading INTERACTIVE CAMPAIGNS
         .capability-svg.hide
           .inter
+            .capabilities-text.white
+                p 06.
+                h4.capability-heading INTERACTIVE CAMPAIGNS
             svg#Layer_1(version='1.1', xmlns:x='&ns_extend;', xmlns:i='&ns_ai;', xmlns:graph='&ns_graphs;', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='146.809px', height='152.128px', viewbox='-72.595 -37.936 292 228', enable-background='new -72.595 -37.936 292 228', xml:space='preserve')
                path.spiral(d='M76.137-23.213v0.002c-54.741,0-99.276,44.535-99.276,99.276c0,54.742,44.535,99.275,99.276,99.275v-0.001\
       c51.727,0,93.809-42.084,93.809-93.811c0-51.726-42.082-93.809-93.809-93.809v0.002c-48.712,0-88.343,39.631-88.343,88.343\
@@ -219,6 +234,7 @@
         h2 OUR VALUED CLIENTELE
         br
         p Lorem Ipsum some text here and there and here is osme more!
+ .bck-client
     .wrapper
         .client-logos
              ul 
@@ -235,7 +251,8 @@
                       img(src='http://placehold.it/')
                     li
                       img(src='http://placehold.it/')
-           
+                    hr
+            
                ul 
                  .large-block-grid-6.small-block-grid-3
                     li
@@ -250,6 +267,7 @@
                       img(src='http://placehold.it/')
                     li
                       img(src='http://placehold.it/')
+                    hr
                ul 
                  .large-block-grid-6.small-block-grid-3
                     li
@@ -264,6 +282,7 @@
                       img(src='http://placehold.it/')
                     li
                       img(src='http://placehold.it/')
+                    hr
                 ul 
                  .large-block-grid-6.small-block-grid-3
                     li
