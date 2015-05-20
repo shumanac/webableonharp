@@ -245,7 +245,6 @@ p{
     color: #67686a;
 }
 
-
 .six-capabilities .columns{
     background-color:#efefef;
     height: 20em;
@@ -354,8 +353,13 @@ margin:4rem auto;
         height: 100%;
     }
 }
-.wrapper.capability-details .strategy h2 {
+.wrapper.capability-details .strategy h3 {
     padding-bottom: 0.8em;
+    padding-top: 8%;
+    text-transform: uppercase;
+}
+.strategy-grid{
+    padding-top:4%;
 }
 
 
