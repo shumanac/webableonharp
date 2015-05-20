@@ -113,7 +113,7 @@
 }*/
 .overlay2 nav {
   position: relative;
-  height: 70%;
+  height: 80%;
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -123,7 +123,7 @@
   text-transform: uppercase;
   width: 100%;
   opacity: 0.96;
-  padding: 50px 0px;
+  padding: 50px 10px;
   /*text-align: center;*/
  
 }
@@ -146,23 +146,26 @@
 .overlay2 ul li a {
   display: block;
   position: relative;
-  color: #FFF;
-   font-size:6vh;
+  color: #fff;
+  font-size:6vh;
+  font-weight: bold;
   font-family: 'MuseoSans700';
   text-decoration: none;
   overflow: hidden;
 }
-.overlay2.social-icons{
+.overlay-menu.social-icons li i{
     color:rgba(255,255,255,0.55);
     font-size: 1em;
-    padding: 2.5%;
+    padding: 1.5%;
    
 }
 .overlay-menu{
 text-align: center;
+padding-bottom:9%;
 }
 .overlay-menu.social-icons{
      bottom: 7%;
+     
 }
 .overlay2 ul li a:hover:after, .overlay2 ul li a:focus:after, .overlay2 ul li a:active:after {
   width: 100%;
@@ -177,11 +180,17 @@ text-align: center;
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   height: 3px;
-  background: #FFF;
+  background: #fff;
   -webkit-transition: .35s;
           transition: .35s;
 }
 
+.w-logo{
+    position: relative;
+    top:25%;
+    left:0;
+    z-index:5;
+}
 @-webkit-keyframes fadeInTop {
   0% {
     opacity: 0;

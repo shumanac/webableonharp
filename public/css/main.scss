@@ -83,11 +83,24 @@ p{
         @include padding-top-bottom(59,2850);
     }
     .client-logos {
-        height: 87.3%;
-        max-width:94.2%;
-        margin: 43/2850 + 1em 3em;
+        height: 89.3%;
+        max-width:100%;
         padding-top:6%;
+       /* padding-left:5%;*/
+        
+       /* margin-bottom: 4%;*/
+        margin-left:3%;
+        text-align: center;
+        position: relative;
+        left:calc(50% - 539px);
     }
+    .client-logos hr{
+        width:75%;
+    }
+  /*  .client-logos ul li{
+        display: -moz-inline;
+        display: inline;
+    }*/
  
    /* .clientele {
         @include padding-top-bottom(47,2850);
@@ -107,14 +120,15 @@ p{
 }
 
 .links{
-      margin-left: 34.7%;
-      margin-top: 1.3%;
-       cursor: pointer;
+     padding: 0px 1.429em;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    position:relative;
 }
 .links a{
     font-family:'MuseoSans500';
-    padding: 0px 1.429em;
-    letter-spacing: 1px;
     color: #9d9daa;
     float:left;
     
@@ -130,10 +144,12 @@ p{
 .principle-text{
     width: 40%;
 }
-
+.colwid{
+  width:100%;
+}
 .our-cap{
    width:9.7vw;
-    float: right;
+   float: right;
 }
 .two{
     margin-right:4%;
@@ -244,7 +260,9 @@ p{
    
     color: #67686a;
 }
-
+.svg-box{
+    margin-bottom:5%;
+}
 .six-capabilities .columns{
     background-color:#efefef;
     height: 20em;
@@ -364,11 +382,14 @@ margin:4rem auto;
 
 
 .culture{
-    h2{
+    margin-top:9%;
+    h3{
         text-transform: uppercase;
+        font-weight: bold;
     }
     p{
-        color:#000;
+        color:#322f31;
+        margin-bottom: 5%;
     }
 }
 .culpic{
@@ -390,6 +411,7 @@ margin:4rem auto;
     }
     .culture-p .columns {
         padding-right: 1.5% !important;
+        width:30%;
     }
 }
 
@@ -399,8 +421,10 @@ hr{
    
 }
 
-.ins .row h2{
+.ins .row h3{
   margin-top: 1.5%;
+ text-transform: uppercase;
+font-weight: bold;
 }
 .instagram {
     margin-top: 1.1%;
@@ -422,6 +446,7 @@ hr{
     text-transform: uppercase;
     font-size: 1.125em;
     cursor: pointer;
+    background-color: #efefef;
   
 }
 
@@ -469,6 +494,14 @@ hr{
     }
 }
 /**************Capabilities************/
+.capabilities h3{
+    font-size: 1.188em!important;
+    font-weight: bold;
+}
+.clientele h3{
+     font-size: 1.188em!important;
+    font-weight: bold;
+}
 /************Contact***************/
 .contact{
     margin-top:8.375em;
@@ -517,10 +550,12 @@ hr{
 .bed{
     width:80%;
     margin-left: 0%;
+    margin-bottom: 5%;
 }
 .cw{
     width:31%;
     margin-left: 9%;
+     margin-bottom: 5%;
 }
 .fed .nil{
     width: 28%;
@@ -535,6 +570,10 @@ hr{
     bottom: 2%;
     @extend .wrapper;
 }
+.hero-text p{
+    color: #fff;
+    font-size: 1.5em;
+}
 .cs-branding{
     margin-top: 5%;
     margin-left: 4.9%;
@@ -542,8 +581,14 @@ hr{
 }
 .cs-branding h3{
     text-transform: uppercase;
+    font-weight: bold;
     line-height: 2!important;
     
+}
+.client-text h3  {
+        text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2!important;
 }
 .cs-branding p{
     margin-bottom: 4%;

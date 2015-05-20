@@ -113,11 +113,9 @@ $( "#show_more" ).click(function() {
 
 
 
-
-
-/* $(function(){
+ $(function(){
      $(".cs").click(function(){$("html,body").animate({scrollTop:$("#case-studies").offset().top},"500");return true})})
   $(function(){
       $(".cp").click(function(){$("html,body").animate({scrollTop:$("#cap").offset().top},"500");return true})})
    $(function(){
-      $(".cl").click(function(){$("html,body").animate({scrollTop:$("#client").offset().top},"500");return true})});*/
+      $(".cl").click(function(){$("html,body").animate({scrollTop:$("#client").offset().top},"500");return true})});

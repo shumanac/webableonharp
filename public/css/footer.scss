@@ -1,7 +1,7 @@
 
 h6{
     font-family:'MuseoSans500';
-    color: #c1c3c9;
+    color: #7A7A7A;
     font-size:1.250em;        
 }
 h7{
@@ -34,12 +34,12 @@ h8 {
 .center-div img{
     padding-top:3.500em;
 }
-.line hr{
+/*.line hr{
     margin-left: auto;
     margin-right: auto;
     margin-top:1.5%;
     width: 75px;
-}
+}*/
 list{
     margin-bottom: 8px;
     top: 1px;
@@ -61,6 +61,9 @@ list{
     font-size: 1.3em;
     color: #BFC1C7;
    
+}
+.social-icons ul li:hover{
+    color:#328FE5;
 }
 .text{
     margin-top: 0.7%;
