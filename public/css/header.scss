@@ -39,6 +39,16 @@
           transition: opacity .25s ease;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+.cross-white {
+    background-color: white !important;
+}
+
+.pointer-events {
+    pointer-events: none;
+}
 
 .button_container.active .top {
   -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
@@ -92,6 +102,9 @@
   opacity: .9;
   visibility: visible;
   height: 100%;
+}
+.overlay2.open .left {
+    margin-left: 3%;
 }
 .overlay2.open li {
   -webkit-animation: fadeInTop .005s ease forwards;

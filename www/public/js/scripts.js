@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 $(function(){
       $(".element").typed({
-        strings: ["Hi Murwe Hi Murwe Hi Murwe "],
+        strings: ["Delivering WebAbulous Interactions"],
         typeSpeed: 0
       });
   });

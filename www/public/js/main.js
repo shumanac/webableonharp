@@ -9,6 +9,18 @@ $('.team-pic').hover(function(){
         $(this).children("h5").hide("easOut");
     }
 );
+$('.work-prof').hover(function(){
+    $(this).children(".workhover").css("background-color","rgba(13,48,107,1)");
+    $(this).children("h5").show("easeIn").slideDown;
+     $(this).children("p").show("easeIn").slideDown;
+},
+    function() {
+         $(this).children(".workhover").css("background-color","rgba(0,0,0,0)");
+        $(this).children("h5").hide("easOut");
+        $(this).children("p").hide("easOut");
+    
+    }
+);
 function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
@@ -49,35 +61,66 @@ function initialize() {
               }
       google.maps.event.addDomListener(window, 'load', initialize);
 
-(function() {
-  var body = document.getElementsByClassName('overlay2')[0];
-  var burgerContain = document.getElementsByClassName('burger-contain')[0];
-  var burgerNav = document.getElementsByClassName('burger-nav')[0];
-  var burgerBrand = document.getElementsByClassName('burger-brand')[0];
+$(document).ready(
+    function() { 
+    $("html").niceScroll({
+        scrollspeed: "80",
+        mousescrollstep: "80",
+        cursorcolor: "#0D306b",
+        cursorwidth: "8",
+        cursorborderradius: "0",
+        zindex:"10"
+    });
+  }
+);
 
-  burgerContain.addEventListener('click', function toggleClasses() {
-    $("body").toggleClass("body-scrolling");
-    $(".burger-nav").delay(1000).toggleClass("hide");
-    $(body).delay(2000).toggleClass("open");
-    $(burgerContain).toggleClass("open");
-    $(burgerBrand).toggleClass("open");
-    $(burgerNav).toggleClass("open");
-    
-}
-    , false);
-})();
-
-
-
-
-$('.strate').hover(function(){
-   
-    $(".strategy").show();    
+$(".capability-item").hover(function() {
+    $(this).children(".capability-svg").show();
+    /* $(this).children(".capability-details").show();*/
 }, function() {
-    $(".strategy").hide();
+    $(this).children(".capability-svg").hide();
+    $/*(this).children(".capability-details").hide();*/
+});
+ 
+ 
+ $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay2').toggleClass('open');
+   $('body').toggleClass("overflow-hidden");
+   $('span.top,span.bottom').toggleClass('cross-white');
+   $('.overlay2 .left').toggleClass("hide");     
+ });
+
+    var $items = $(".work-prof");
+    $items.hide();
+    $items.slice(0, Math.floor($items.length/2)).show();
+ 
+$( "#show_more" ).click(function() {
+  
+     var $items = $(".work-prof");
+    $items.show();
+    $('#show_more').addClass('hidden');
 });
 
+    var $items = $(".ins");
+    $items.hide();
+    $items.slice(0, Math.ceil($items.length/3)).show();
 
- 
- 
- 
+    
+$( "#show_more" ).click(function() {
+  
+     var $items = $(".ins");
+    $items.show();
+    $('#show_more').addClass('hidden');
+});
+
+$(".contact .full-width").click(function() {
+    $(this).children("#map-canvas").delay(1500).toggleClass("pointer-events");
+});
+
+ $(function(){
+     $(".cs").click(function(){$("html,body").animate({scrollTop:$("#case-studies").offset().top},"500");return true})})
+  $(function(){
+      $(".cp").click(function(){$("html,body").animate({scrollTop:$("#cap").offset().top},"500");return true})})
+   $(function(){
+      $(".cl").click(function(){$("html,body").animate({scrollTop:$("#client").offset().top},"500");return true})});

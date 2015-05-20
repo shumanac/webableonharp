@@ -142,14 +142,13 @@ p{
     margin: auto;
 }
 .principle-text{
-    width: 40%;
+    width: 45%;
 }
 .colwid{
   width:100%;
 }
 .our-cap{
-   width:9.7vw;
-   float: right;
+   padding-left: 3% !important;
 }
 .two{
     margin-right:4%;
@@ -411,7 +410,13 @@ margin:4rem auto;
     }
     .culture-p .columns {
         padding-right: 1.5% !important;
-        width:30%;
+    }
+    span.number {
+        color: lightgrey;
+        font-family: "MuseoSans900";
+    }
+    span.heading {
+        font-weight: bold;
     }
 }
 

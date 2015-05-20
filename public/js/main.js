@@ -86,7 +86,10 @@ $(".capability-item").hover(function() {
  $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay2').toggleClass('open');
-  });
+   $('body').toggleClass("overflow-hidden");
+   $('span.top,span.bottom').toggleClass('cross-white');
+   $('.overlay2 .left').toggleClass("hide");     
+ });
 
     var $items = $(".work-prof");
     $items.hide();
@@ -111,7 +114,9 @@ $( "#show_more" ).click(function() {
     $('#show_more').addClass('hidden');
 });
 
-
+$(".contact .full-width").click(function() {
+    $(this).children("#map-canvas").delay(1500).toggleClass("pointer-events");
+});
 
  $(function(){
      $(".cs").click(function(){$("html,body").animate({scrollTop:$("#case-studies").offset().top},"500");return true})})
