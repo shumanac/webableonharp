@@ -109,6 +109,7 @@
 .overlay2.open li {
   -webkit-animation: fadeInTop .005s ease forwards;
           animation: fadeInTop .005s ease forwards;
+     -moz-animation: fadeInTop .005s ease forwards;
   /*-webkit-animation-delay: .35s;
           animation-delay: .35s;*/
 }
@@ -137,6 +138,7 @@
   width: 100%;
   opacity: 0.96;
   padding: 50px 10px;
+  line-height: 1;
   /*text-align: center;*/
  
 }
@@ -184,18 +186,21 @@ padding-bottom:9%;
   width: 100%;
 }
 .overlay2 ul li a:after {
-  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
   width: 0%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
   height: 3px;
   background: #fff;
-  -webkit-transition: .35s;
-          transition: .35s;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: 500;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 8px -17px;
+    width: 100vw;
+ 
 }
 
 .w-logo{

@@ -78,6 +78,137 @@ p{
   max-width: 90%;
   margin: 0 auto;
 }
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+/*************ABOUT***************/
+
+
+.about-b{
+    height:100%;
+}
+.hero-image {
+    background:url('http://placehold.it/1280x650')no-repeat center;
+     width: 1280px/1280px * 100%;
+    height:104vh;
+    position: relative;
+    top: -1%;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero-image .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(50%)
+}
+.process-text {
+    padding-top: 7%;
+    width: 45%;
+}
+.principle-text {
+    padding-right: 1.5% !important;
+}
+.process-text.wrapper {
+    width: 100%;
+    max-width: 99.5rem;
+    margin: auto;
+}
+
+.team-pics {
+    .columns img {
+        width: 100%;
+        height: auto;
+    }
+    .columns {
+        position: relative;
+    }
+    .team-pic h5,p {
+        position: absolute;
+        padding: 2% 5%;
+        display: none;
+        color: white;
+    }
+    .team-pic h5.name {
+        top: 5%;
+    }
+    .team-pic h5.position {
+        top: 12%;
+    }
+    .team-pic h5.twitter {
+        bottom: 5%;
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+}
+
+
+.hero-text h1{
+    color: #fff;
+    font-family: 'MuseoSans900';
+    font-size:6vmin;
+    font-weight: 700;
+     transform: translate(-50%, -50%);
+     left:50%;
+     top:50%;
+      position: absolute;
+      width:18em;
+   
+    
+}
+.strategy-grid{
+    margin-top:3%;
+}
+.about{
+margin:4rem auto;
+}
+.strategy-grid {
+    .columns img {
+    width: 100%;
+    }
+    .columns.large-8 img {
+        height: 100%;
+    }
+}
+
+.two-col{
+   width:70%;
+ 
+}
+
+.button.small
+{
+    margin-top:9%!important;
+     background-color: #ed4523;
+   /* text-align:center;*/
+    width:64px;
+    height:20px;
+    
+}
+.button.small h13{
+    font-weight: 400;
+    color:#fff;
+    /*padding:0px 1.429em;*/
+    font-family: 'MuseoSans500';
+}
+.ab{
+    margin-left:1%;
+}
+
+
+ .meet-the-team {
+        @include padding-top-bottom(99,2158);
+    }
+/***********End of ABOUT*********************/
 .wrapper {
     .capabilities {
         @include padding-top-bottom(59,2850);
@@ -133,23 +264,13 @@ p{
     float:left;
     
 }
-.button.small{
-    background-color: #ed4523;
-}
-.process-text.wrapper {
-    width: 100%;
-    max-width: 99.5rem;
-    margin: auto;
-}
-.principle-text{
-    width: 45%;
-}
+
+
+
 .colwid{
   width:100%;
 }
-.our-cap{
-   padding-left: 3% !important;
-}
+
 .two{
     margin-right:4%;
 }
@@ -160,36 +281,8 @@ p{
     padding-right: 2.5%;
     width:50%;
 }
-.process{
-    padding-left: 2.5%;
-    width:50%;
-}
-.about-b{
-    height:100%;
-}
-.hero-image {
-    background:url('http://placehold.it/1280x650')no-repeat center;
-     width: 1280px/1280px * 100%;
-    height:104vh;
-    position: relative;
-    top: -1%;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.hero-image .hero-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(50%)
-}
-.process-text {
-    padding-top: 5%;
-    width: 45%;
-}
-.principle-text {
-    padding-right: 1.5% !important;
-}
+
+
 .team-at-work {
     background-color: #ff00ea;
     @extend .full-width
@@ -210,41 +303,7 @@ p{
     }
 
 }
-.full-width {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: initial;
-}
-.team-pics {
-    .columns img {
-        width: 100%;
-        height: auto;
-    }
-    .columns {
-        position: relative;
-    }
-    .team-pic h5,p {
-        position: absolute;
-        padding: 2% 5%;
-        display: none;
-        color: white;
-    }
-    .team-pic h5.name {
-        top: 5%;
-    }
-    .team-pic h5.position {
-        top: 12%;
-    }
-    .team-pic h5.twitter {
-        bottom: 5%;
-    }
-    .overlay {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-    }
-}
+
 .client {
     background-color: #6f316a;
     height: 320px;
@@ -269,7 +328,11 @@ p{
     -moz-box-sizing: border-box;
 
 }
-
+.wrapper.capability-details .strategy h3 {
+    padding-bottom: 0.8em;
+    padding-top: 8%;
+    text-transform: uppercase;
+}
 .capabilities-text {
        padding:138/320 * 100%/2 + 2% 122/426 * 100% /2 + 2%;
         text-align: center;
@@ -320,7 +383,7 @@ svg {
 }
  .design{
     background-color: #a1cc2e;
-    height: 20em;
+  /*  height: 20em;*/
     
 }
 .develop{
@@ -359,25 +422,7 @@ svg {
     left: 1.7%;
     color: #efefef;
 }
-.about{
-margin:4rem auto;
-}
-.strategy-grid {
-    .columns img {
-    width: 100%;
-    }
-    .columns.large-8 img {
-        height: 100%;
-    }
-}
-.wrapper.capability-details .strategy h3 {
-    padding-bottom: 0.8em;
-    padding-top: 8%;
-    text-transform: uppercase;
-}
-.strategy-grid{
-    padding-top:4%;
-}
+
 
 
 .culture{
@@ -570,15 +615,11 @@ font-weight: bold;
 .cs-branding-hero {
     height: 100%;
 }
-.hero-text {
-    position: absolute;
-    bottom: 2%;
-    @extend .wrapper;
-}
-.hero-text p{
+
+/*.hero-text p{
     color: #fff;
     font-size: 1.5em;
-}
+}*/
 .cs-branding{
     margin-top: 5%;
     margin-left: 4.9%;
