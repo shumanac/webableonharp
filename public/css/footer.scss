@@ -1,7 +1,11 @@
-
+.text.row h6 {
+  text-transform: none;
+  margin: 21px;
+  color: #6d6d74;
+  letter-spacing: 0.5px;
+}
 h6{
     font-family:'MuseoSans500';
-    color: #7A7A7A;
     font-size:1.250em;        
 }
 h7{
@@ -12,8 +16,8 @@ h7{
 }
 h8 {
     font-family: 'MuseoSans500'!important;
-    color: #3C3E42;
-    font-size: 0.75em;
+  color: #6d6d74;
+  font-size: 0.750em;
 
 }
 

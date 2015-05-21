@@ -137,7 +137,6 @@
   text-transform: uppercase;
   width: 100%;
   opacity: 0.96;
-  padding: 50px 10px;
   line-height: 1;
   /*text-align: center;*/
  
@@ -167,40 +166,38 @@
   font-family: 'MuseoSans700';
   text-decoration: none;
   overflow: hidden;
+    width: 100vw;
 }
-.overlay-menu.social-icons li i{
-    color:rgba(255,255,255,0.55);
-    font-size: 1em;
-    padding: 1.5%;
-   
+
+.social-icons-menu {
+ text-align: center;
+ margin-top:3%;
+    
 }
+
+.social-icons-menu > .text-align {
+ display: inline-flex;
+}
+
+.social-icons-menu ul li {
+width: 4vw;
+color: rgba(255,255,255,0.55);
+font-size: 3vh;
+}
+
+.social-icons-menu ul li:hover {
+    color:  rgba(255,255,255,1);
+}
+
 .overlay-menu{
 text-align: center;
 padding-bottom:9%;
 }
-.overlay-menu.social-icons{
-     bottom: 7%;
-     
-}
-.overlay2 ul li a:hover:after, .overlay2 ul li a:focus:after, .overlay2 ul li a:active:after {
-  width: 100%;
-}
-.overlay2 ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0%;
-  height: 3px;
-  background: #fff;
-  font-size: 6vh;
-  text-align: center;
-  font-weight: 500;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin: 8px -17px;
-    width: 100vw;
- 
+
+
+.overlay2 > .overlay-menu > ul > li:hover > a {
+ background-color: #fff;
+    color: #0d306b !important;
 }
 
 .w-logo{
