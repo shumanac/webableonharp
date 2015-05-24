@@ -26,9 +26,13 @@ h8 {
   padding-top: 0;
   height:21.125em;
   position: fixed;
+  position: overflow;
   width: 100%;
   bottom: 0;
   z-index: -1;
+    -webkit-transform: translate3d(0, 0, 0);
+-o-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
 //  -webkit-backface-visibility: hidden;
 //  backface-visibility: hidden;
 }

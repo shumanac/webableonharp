@@ -106,7 +106,8 @@ p{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateY(50%)
+    transform: translateY(50%);
+    width:100vw;
 }
 .process-text {
    /* padding-top: 7%;*/
@@ -178,7 +179,9 @@ p{
    /*  left:50%;
      top:50%;*/
       position: absolute;
-      width:18em;
+     /* width:18em;*/
+    width: 100vw;
+    text-align: center;
    
     
 }
@@ -256,10 +259,10 @@ margin:4rem auto;
     .client-logos {
       
         text-align: center;
-        top:50%;
-        left:50%;
+        
      
     }
+    
     .client-logos hr{
         width:75%;
     }
@@ -284,9 +287,13 @@ margin:4rem auto;
         padding-top: 5%;
     }*/
 }
-
+@media (min-width:1700px) {
+    .x-large {
+     width: 25%;   
+    }
+}
 .links{
-     padding: 0px 1.429em;
+    padding: 0px 1.429em;
     line-height: 1;
     letter-spacing: 2px;
     text-decoration: none;
@@ -379,7 +386,6 @@ margin:4rem auto;
     .capabilities-text p {
         font-family: 'MuseoSans';
         font-size: 1.263em;
-        margin-bottom: 0.4%;
         color:#67686a;
     }
  .capabilities-text h4{
@@ -411,8 +417,10 @@ margin:4rem auto;
         text-align: center;
 svg {
     position: absolute;
-    top: 36%;
-    left: 41%;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 20%;  
 } 
 .strategy{
      background-color: #cf4242; 
@@ -449,7 +457,7 @@ svg {
      
 }
         }
-.bck-entent{
+.bck-client{
     background-color:#efefef;
     width: 100%;
     height: 25.6%;
@@ -626,27 +634,11 @@ font-weight: bold;
 .con-f{
  @extend .team-pics;
 }
-.am{
-    width:28%;
+.team-width{
+    width:83.3%;
+   
 }
-.gd{
-    width:25%;
-    margin-left: 6%;
-}
-.bed{
-    width:80%;
-    margin-left: 0%;
-    margin-bottom: 5%;
-}
-.cw{
-    width:31%;
-    margin-left: 9%;
-     margin-bottom: 5%;
-}
-.fed .nil{
-    width: 28%;
-    padding-left: 3%;
-}
+
 /***************case-studies*****************/
 .cs-branding-hero {
     height: 100%;
