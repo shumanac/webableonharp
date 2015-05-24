@@ -53,7 +53,7 @@ h3{
     font-size: 1.15em;
     color: #0d306b;
     letter-spacing: 0.2px;
-    margin: 0px 0px 2rem;
+ /*   margin: 0px 0px 2rem;*/
     
 }
 h5{
@@ -66,7 +66,7 @@ h5{
 p{
     font-family: 'MuseoSans';
     font-size:.95em;
-    line-height: 1.8 !important;
+   /* line-height: 1.8 !important;*/
     color: #322f31;
     letter-spacing: 0.5px;
     color:rgb(47, 47, 47);
@@ -76,7 +76,7 @@ p{
 }
 .wrapper {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 5.5em auto;
 }
 .full-width {
     width: 100%;
@@ -109,7 +109,7 @@ p{
     transform: translateY(50%)
 }
 .process-text {
-    padding-top: 7%;
+   /* padding-top: 7%;*/
     width: 45%;
 }
 .principle-text {
@@ -175,16 +175,16 @@ p{
     font-size:6vmin;
     font-weight: 700;
      transform: translate(-50%, -50%);
-     left:50%;
-     top:50%;
+   /*  left:50%;
+     top:50%;*/
       position: absolute;
       width:18em;
    
     
 }
-.strategy-grid{
+/*.strategy-grid{
     margin-top:3%;
-}
+}*/
 .about{
 margin:4rem auto;
 }
@@ -221,40 +221,38 @@ margin:4rem auto;
     /*padding:0px 1.429em;*/
     font-family: 'MuseoSans500';
 }
-.ab{
-    margin-left:1%;
-}
 
 
- .meet-the-team {
+ /*.meet-the-team {
         @include padding-top-bottom(99,2158);
-    }
+    }*/
 
 .endpic{
     background-color:#0d306b;
     cursor:pointer;
-    height: 28.5em;
+    height:27.3rem;
+    width: 100%
 }
 
 /***********End of ABOUT*********************/
 
 /*************Capabilities************/
 
-.capability-details .first{
+/*.capability-details .first{
     margin-top:5%;
-}
+}*/
 .wrapper.capability-details .strategy h3 {
-    padding-bottom: 0.8em;
-    padding-top: 5%;
+  /*  padding-bottom: 0.8em;
+    padding-top: 5%;*/
     text-transform: uppercase;
 }
 /**************End of capabilities************/
 
 /*****Work**********/
 .wrapper {
-    .capabilities {
+    /*.capabilities {
         @include padding-top-bottom(59,2850);
-    }
+    }*/
     .client-logos {
       
         text-align: center;
@@ -343,7 +341,7 @@ margin:4rem auto;
 
 .client {
     background-color: #6f316a;
-    height: 320px;
+    height: 20em;
 }
 .grey {
     background-color:#efefef;
@@ -367,12 +365,12 @@ margin:4rem auto;
 .capabilities h3{
     padding-top: 2%;
 }
-.capabilities p{
+/*.capabilities p{
     padding-bottom: 2%;
-}
-#client p{
+}*/
+/*#client p{
     padding-bottom: 3%;
-}
+}*/
 .capabilities-text {
        padding:138/320 * 100%/2 + 2% 122/426 * 100% /2 + 2%;
         text-align: center;
@@ -413,12 +411,12 @@ margin:4rem auto;
         text-align: center;
 svg {
     position: absolute;
-    top: 25%;
-    left: 33.5%;    
+    top: 36%;
+    left: 41%;    
 } 
 .strategy{
      background-color: #cf4242; 
-     height: 20em;
+   /*  height: 20em;*/
     
 }
  .design{
@@ -428,52 +426,50 @@ svg {
 }
 .develop{
     background-color: #37ce7a;
-    height: 20em;
+   /* height: 20em;*/
     
   
 }
 .social{
     background-color: #e68f41;
-    height: 20em;
+/*    height: 20em;*/
     
   
 }
 .media{
     background-color: #1eaad8;
-    height: 20em;
+ /*   height: 20em;*/
     
    
 }
 .inter{
     background-color: #4677cd;
-    height: 20em;
+/*    height: 20em;*/
     
      
 }
         }
-.bck-client{
+.bck-entent{
     background-color:#efefef;
     width: 100%;
     height: 25.6%;
 }
 .bck-client hr{
-    height:12.3%;
-    width: 92.6%;
-    left: 1.7%;
+    width: 98.6%;
     color: #efefef;
 }
 
 
 
 .culture{
-    margin-top:9%;
+/*    margin-top:9%;*/
     h3{
         text-transform: uppercase;
         font-weight: bold;
     }
     p{
         color:#322f31;
-        margin-bottom: 5%;
+      /*  margin-bottom: 5%;*/
     }
 }
 .culpic{
@@ -481,7 +477,7 @@ svg {
         width:100%;
         height: auto;
     }
-    margin-bottom: 3.9%;
+   /* margin-bottom: 3.9%;*/
 }
 .culture-code{
     h2{
@@ -507,17 +503,17 @@ svg {
 
 hr{
     width: 3.9%;
-    margin-left: 4.9%;
-   
+  /*  margin-left: 4.9%;
+   */
 }
 
 .ins .row h3{
-  margin-top: 1.5%;
+ /* margin-top: 1.5%;*/
  text-transform: uppercase;
 font-weight: bold;
 }
 .instagram {
-    margin-top: 1.1%;
+  /*  margin-top: 1.1%;*/
     .columns img {
         width: 100%;
         height: auto;
@@ -681,10 +677,10 @@ font-weight: bold;
     font-weight: bold;
     line-height: 2!important;
 }
-.cs-branding p{
+/*.cs-branding p{
     margin-bottom: 3%;
     
-}
+}*/
 .client{
     background-color: #efefef;
     width: 100%;
@@ -710,7 +706,7 @@ h10{
  font-family: 'MuseoSans';
  color: #fff;
  margin-top: 86.3%;
-    font-size: 1.5;
+    font-size: 1.5em;
 }
 .about-b .columns {
     height: 100%
