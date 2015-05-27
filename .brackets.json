@@ -1,5 +1,6 @@
 {
     "jscodehints.detectedExclusions": [
-        "/home/shumana/agnew/webableonharp/public/js/main.js"
+        "/home/shumana/agnew/webableonharp/public/js/main.js",
+        "/home/shumana/version1.1/webableonharp/public/js/main.js"
     ]
 }

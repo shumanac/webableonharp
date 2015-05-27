@@ -1,26 +1,16 @@
 $(document).foundation();
 
 $('.team-pic').hover(function(){
-    $(this).children(".overlay").css("background-color","rgba(0,0,0,0.6)");
-    $(this).children("h5").show("easeIn").slideDown;
-},
-    function() {
-         $(this).children(".overlay").css("background-color","rgba(0,0,0,0)");
-        $(this).children("h5").hide("easOut");
-    }
-);
+    $(this).children(".overlay").toggleClass('appear-about');
+    $(this).children("h5").toggleClass('appear-about');
+});
+
 $('.work-prof').hover(function(){
-    $(this).children(".workhover").css("background-color","rgba(13,48,107,1)");
-    $(this).children("h5").show("easeIn").slideDown;
-     $(this).children("p").show("easeIn").slideDown;
-},
-    function() {
-         $(this).children(".workhover").css("background-color","rgba(0,0,0,0)");
-        $(this).children("h5").hide("easOut");
-        $(this).children("p").hide("easOut");
-    
-    }
-);
+    $(this).children(".workhover").toggleClass('appear-work');
+    $(this).find(".lookfor").toggleClass('appear-work');
+    $(this).find(".clientprof").toggleClass('appear-work');
+});
+
 function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
@@ -69,7 +59,8 @@ $(document).ready(
         cursorcolor: "#0D306b",
         cursorwidth: "8",
         cursorborderradius: "0",
-        zindex:"10"
+        zindex:"10",
+        horizrailenabled:"false"
     });
   }
 );
@@ -86,9 +77,9 @@ $(".capability-item").hover(function() {
  $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay2').toggleClass('open');
-   $('body').toggleClass("overflow-hidden");
+   $('body').toggleClass("overflow-hidden");  
    $('span.top,span.bottom').toggleClass('cross-white');
-   $('.overlay2 .left').toggleClass("hide");     
+  
  });
 
     var $items = $(".work-prof");
@@ -118,9 +109,3 @@ $(".contact .full-width").click(function() {
     $(this).children("#map-canvas").delay(1500).toggleClass("pointer-events");
 });
 
- $(function(){
-     $(".cs").click(function(){$("html,body").animate({scrollTop:$("#case-studies").offset().top},"500");return true})})
-  $(function(){
-      $(".cp").click(function(){$("html,body").animate({scrollTop:$("#cap").offset().top},"500");return true})})
-   $(function(){
-      $(".cl").click(function(){$("html,body").animate({scrollTop:$("#client").offset().top},"500");return true})});
