@@ -82,7 +82,7 @@ $(".capability-item").hover(function() {
   
  });
 
-    var $items = $(".work-prof");
+/*    var $items = $(".work-prof");
     $items.hide();
     $items.slice(0, Math.floor($items.length/2)).show();
  
@@ -91,7 +91,7 @@ $( "#show_more" ).click(function() {
      var $items = $(".work-prof");
     $items.show();
     $('#show_more').addClass('hidden');
-});
+});*/
 
     var $items = $(".ins");
     $items.hide();
@@ -109,3 +109,27 @@ $(".contact .full-width").click(function() {
     $(this).children("#map-canvas").delay(1500).toggleClass("pointer-events");
 });
 
+$(function(){
+      $(".contact-typed-text").typed({
+        strings: ["If you like coffee", "If you sing in the shower", "If you’re hot",
+"If you stalk people","If you’re feeling the pressure", "If you’re lonely", "If you hate traffic", "If you like cats", "If you’re cranky", "If you like dogs","If you want this to end","If you’re tired","If you like Putin", "If you like minions", "If your phone’s running our of charge", "If you’re just curious", "If you’re bored"],
+        loop: true,
+        typeSpeed: 50,
+        backspace: function(curString, curStrPos){
+            setTimeout(function() {
+
+            // check string array position
+            // on the first string, only delete one word
+            // the stopNum actually represents the amount of chars to
+            // keep in the current string. In my case it's 3.
+            if (self.arrayPos == 1){
+                self.stopNum = 3;
+            }
+            //every other time, delete the whole typed string
+            else{
+                self.stopNum = 0;
+            }
+            });
+        }
+      })
+ });

@@ -1,6 +1,5 @@
 
 @import "scss/foundation";
-@import "style";
 @import "header";
 @import "footer";
 
@@ -358,6 +357,15 @@ our-cap h5{
     
   
 }
+@media(max-width:600px){
+     .client-logos > ul> div> li {
+       border-bottom:2px solid #ddd!important;
+       padding-bottom: 4px;
+    }
+     .client-logos > ul> div> li+li+li+li+li+li+li+li+li+li+li+li+li+li+li+li+li+li+li+li{
+     border-bottom: 0px!important;
+ }
+}
   .client-logos > ul> div> li {
        border-bottom:2px solid #ddd;
        padding-bottom: 4px;
@@ -643,7 +651,7 @@ font-weight: bold;
   display: none; 
 }
 .work_pic {
-  margin-top:47.4px;
+  margin-top:46.4px;
 }
 
 .work_pic {
@@ -778,6 +786,81 @@ font-weight: bold;
    font-weight: bold;
    margin-bottom:34px;
 }
+.hero-typed-text {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    h1, p {
+        color: white;
+    }
+    h1 {
+        font-family: "MuseoSans700";
+    }
+    p {
+        font-family: "MuseoSans500";
+    }
+    span.email {
+        font-size: 36%;
+        text-emphasis: none;
+    }
+    a i {
+        color: white;
+    }
+    a p {
+        font-size: 36%;
+        margin-bottom: 5px;
+        color: white;
+    }
+    .drop p {
+    position: relative;
+    left: 40%;    
+     width: 20%;
+     padding: 1% 1%;
+     background-color: white;
+     border-radius: 5px;
+     color: #18abe2;
+    }
+}
+.contact-typed-text {
+    text-decoration: underline;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: white;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.contact-hero-image {
+    background-color: #18abe2;
+    width: 1280px/1280px * 100%;
+    height:104vh;
+    position: relative;
+    top: -1%;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: inline-block;
+}
+
 /***************case-studies*****************/
 .cs-branding-hero {
     height: 100%;
