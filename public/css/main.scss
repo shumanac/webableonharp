@@ -313,14 +313,14 @@ margin:4rem auto;
 
 /*************Capabilities************/
 .first-cap h3{
-    margin-top: 5.8%!important;
+    margin-top: 66.8px!important;
       
 }
 .capability-details h3{
   margin-bottom: 2.5%!important;  
 }
 .capability-details p{
-   margin-bottom: 0.1%;
+   margin-bottom: 1px;
 }
 
 .wrapper.capability-details .strategy h3 {
@@ -550,16 +550,16 @@ svg {
 
 
 .culture{
-    margin-top:5.9%;
+    margin-top:65.5px;
    
     h3{
         text-transform: uppercase;
         font-weight: bold;
-         margin-bottom: 2.7%;
+         margin-bottom: 31.7px;
     }
     p{
         color:#322f31;
-      /*  margin-bottom: 5%;*/
+        margin-bottom: 5px;
     }
 }
 .culpic{
@@ -571,11 +571,11 @@ svg {
 }
 .culture-code{
     h3{
-        margin-bottom:2.5%;
+        margin-bottom:26.5px;
     }
     h2{
         text-transform: uppercase;
-        padding-bottom: 2.1%;
+        padding-bottom: 26px;
     }
     .coloumns {
         padding-top: 1.6%;
@@ -596,8 +596,8 @@ svg {
 
 hr{
     width: 3.9%;
-    margin-bottom:0.5%;
-    margin-top:6%;
+    margin-bottom:4px;
+    margin-top:65px;
   /*  margin-left: 4.9%;
    */
 }
@@ -606,13 +606,13 @@ hr{
 
 .ins .row h3{
   margin-top:0;
-    margin-bottom: 3%;
+    margin-bottom: 33px;
  text-transform: uppercase;
 font-weight: bold;
 }
 .ins p{
     margin-bottom:0;
-    margin-top: 0.3%;
+    
 }
 .instagram {
   /*  margin-top: 1.1%;*/
@@ -676,15 +676,16 @@ font-weight: bold;
     }
    .lookfor{
     
-        font-family: 'MuseoSans700';
+        font-family: 'MuseoSans500';
         color:#fff;
         font-size: 1.6vw;
         line-height: 1.4; 
         display: block;
-        top:16%;
+        top:18%;
         left:6%;
         position: absolute;
         opacity: 0;
+        width:90%;
     }
    
 @media (max-width:640px){
@@ -727,38 +728,46 @@ font-weight: bold;
 }
 /************Contact***************/
 .contact{
-    margin-top:95px;
+    margin-top:63px;
+    padding-top: 5%;
     margin-left:4.9%;
     margin-right: 5%;
 }
 .contact h12{
-    font-family: 'MuseoSans700';
+    font-family: 'MuseoSans';
     color:#0d306b;
     font-size: 3.125em;
+    line-height: 1.1;
+    
 }
 .po{
     font-family: 'MuseoSans';
     font-size: 1em;
+    padding-top: 1%;
     color:#322f31;
 }
-.of{
+/*.of{
     font-family: 'MuseoSans700';
     margin-bottom: 4%;
     color:#322f31;
     font-size: 0.75em;
-}
+}*/
 
    #map-canvas {
         width: 100%;
         height: 48.125em;
-        margin-bottom: 8%;
       }
+.contact-wrap{
+    max-width: 90%;
+    margin: 5.5em 0em 3em 0;
+}
 .contact hr{
     margin-bottom: 7.5%;
     margin-left: 0;
 }
 .con-f{
  @extend .team-pics;
+ margin-top:68px;
 }
 .team-width{
     width:83.3%;
@@ -767,10 +776,15 @@ font-weight: bold;
 .career h3{
     font-size: 1.188em!important;
    font-weight: bold;
+    margin-bottom: 2.9%;
+}
+.career p{
+    margin-bottom: -5px;
 }
 .team-width h2{
    font-size: 1.188em!important;
    font-weight: bold;
+   margin-bottom:34px;
 }
 /***************case-studies*****************/
 .cs-branding-hero {
