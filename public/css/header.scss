@@ -28,9 +28,7 @@
     max-width: 97%;
     margin: auto;
 }
-/*.white{
-    background-image: url('../images/white-logo.png');
-}*/
+
 
 /* css for right menu*/
 
@@ -129,11 +127,11 @@
 
 .overlay2 nav {
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
+  top: 17.75%;
+/*  -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+          transform: translateY(-50%);*/
  
   font-weight: bold;
   text-transform: uppercase;
@@ -170,6 +168,9 @@
 
 .social-icons-menu {
  text-align: center;
+ width:100%;
+ bottom: 9%;
+ position: absolute;
     
 }
 
@@ -178,7 +179,7 @@
 }
 
 .social-icons-menu ul li {
-width: 4vw;
+width: 4.5vw;
 color: rgba(255,255,255,0.55);
 font-size: 3vh;
 }

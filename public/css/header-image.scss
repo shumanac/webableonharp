@@ -113,26 +113,11 @@
   /*-webkit-animation-delay: .35s;
           animation-delay: .35s;*/
 }
-/*.overlay2.open li:nth-of-type(2) {
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
-}
-.overlay2.open li:nth-of-type(3) {
-  -webkit-animation-delay: .45s;
-          animation-delay: .45s;
-}
-.overlay2.open li:nth-of-type(4) {
-  -webkit-animation-delay: .50s;
-          animation-delay: .50s;
-}*/
+
 .overlay2 nav {
   position: relative;
   height: 80%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
- 
+  top: 17.75%;
   font-weight: bold;
   text-transform: uppercase;
   width: 100%;
@@ -171,7 +156,9 @@
 
 .social-icons-menu {
  text-align: center;
- margin-top:3%;
+ width:100%;
+ bottom: 9%;
+ position: absolute;
     
 }
 
@@ -180,7 +167,7 @@
 }
 
 .social-icons-menu ul li {
-width: 4vw;
+width: 4.5vw;
 color: rgba(255,255,255,0.55);
 font-size: 3vh;
 }
