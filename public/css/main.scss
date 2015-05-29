@@ -1176,20 +1176,30 @@ h10{
 .wrapper-end{
     height: 226px;
     background-color:rgb(13, 48, 107)!important;
+   /*   padding: 6.5%;*/
+}
+.end-text{
+    text-align: center;
 }
 .end-text h2{
     color: #fff;
     text-align: center;
-    line-height: 4;
     display: block;
+    
    
 }
 .large.button{
     background-color:#ed4523;
-    left:42%;
+   /* left:42%;*/
     height: 45px!important;
     width: 216px!important;
+    position: relative;
    
+}
+.large.button h3{
+    color:#fff;
+    font-size: .9em;
+   margin-top: -3%;
 }
 .large.button:hover{
     background-color:#0063ab!important;
