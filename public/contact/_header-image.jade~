@@ -23,7 +23,7 @@ div.slideUp(style="background-color:transparent")
                          li
                             a(href="/join") Join the team
                          li
-                            a(href="/bable") Bable Blog
+                            a(href="#") Bable Blog
                          li 
                             a(href="/contact") Contact
            

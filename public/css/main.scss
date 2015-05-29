@@ -1180,6 +1180,12 @@ h10{
 }
 .end-text{
     text-align: center;
+    margin-top: 5%;
+}
+@media only screen and (min-width:600px) and (max-width: 1000px){
+    .end-text{
+         margin-top: 11%!important;
+    }
 }
 .end-text h2{
     color: #fff;

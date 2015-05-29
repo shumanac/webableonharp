@@ -1,7 +1,9 @@
 
-div.slideUp(style="background-color:transparent")
+div.slideUp
      nav.top-bar.data-topbar.row.header
             div.left.logo#logo
+                 //.color.hide
+                    img(src='../images/Logo top left.png')
                  .w-logo
                     img(src='../images/white-logo.png')
             div.right
@@ -12,6 +14,7 @@ div.slideUp(style="background-color:transparent")
               .overlay2#overlay2
                 .left.hide
                     img(src='../images/white-logo.png')
+    
                   nav.overlay-menu
                     ul
                          li
@@ -21,9 +24,9 @@ div.slideUp(style="background-color:transparent")
                          li
                             a(href="/capabilities") Capabilities
                          li
-                            a(href="/join") Join the team
+                            a(href="#") Bable Blog
                          li
-                            a(href="/bable") Bable Blog
+                            a(href="/join") Join the team
                          li 
                             a(href="/contact") Contact
            
@@ -36,6 +39,9 @@ div.slideUp(style="background-color:transparent")
                             a(href='#')
                             i.fa.fa-linkedin
                         li
+                            a(href='#')
+                            i.fa.fa-google-plus
+                        li
                             a(href='#')  
                             i.fa.fa-facebook
                         li
@@ -44,9 +50,7 @@ div.slideUp(style="background-color:transparent")
                         li
                             a(href='#')
                             i.fa.fa-pinterest
-                        li
-                            a(href='#')
-                            i.fa.fa-google-plus
+                       
 
             
             
