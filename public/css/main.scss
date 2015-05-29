@@ -1169,3 +1169,29 @@ h10{
   animation: media 4s ;
   -moz-animation: media  4s;
 }
+/******************End of svg**********************/
+
+/*************End box**************/
+
+.wrapper-end{
+    height: 226px;
+    background-color:rgb(13, 48, 107)!important;
+}
+.end-text h2{
+    color: #fff;
+    text-align: center;
+    line-height: 4;
+    display: block;
+   
+}
+.large.button{
+    background-color:#ed4523;
+    left:42%;
+    height: 45px!important;
+    width: 216px!important;
+   
+}
+.large.button:hover{
+    background-color:#0063ab!important;
+
+}

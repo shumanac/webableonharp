@@ -1,7 +1,13 @@
 doctype
 html(lang="en")
   head
-    title= Webable
+    title= title
+    meta(name="description" content="#{description}")
+    meta(property="og:title" content="#{title}")
+    meta(property='og:site_name' content='WebAble Digital')
+    meta(property='og:url' content='#{url}')
+    meta(property="og:description" content="#{description}")
+    meta(property="og:image" content="#{image-url}")
     meta(charset='utf-8')
     //link(type="text/css", rel="stylesheet", href="/vendors/bootstrap/css/bootstrap.min.css")
     link(type="text/css", rel="stylesheet", href="../css/main.css")
@@ -12,6 +18,13 @@ html(lang="en")
     script(src="/js/script.js")
     meta(name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
+    script.
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-63440796-1', 'auto');
+        ga('send', 'pageview');
 
  body
     != partial("_header")    

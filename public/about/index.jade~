@@ -75,7 +75,7 @@
         .small-12.medium-6.large-3.columns.team-pic
             .overlay
             h5.name Ovick Alam
-            h5.position Chief Executive Officer
+            h5.position Chief Excecutive Officer
             h5.twitter @OvickAlam
             img(src='../images/about-picture/webable_team_01_ovick.jpg')
         .small-12.medium-6.large-3.columns.team-pic

@@ -105,7 +105,7 @@ $( "#show_more" ).click(function() {
     $('#show_more').addClass('hidden');
 });
 
-$(".contact .full-width").click(function() {
+$("#contact-info.full-width").click(function() {
     $(this).children("#map-canvas").delay(1500).toggleClass("pointer-events");
 });
 
