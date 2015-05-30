@@ -475,7 +475,7 @@ our-cap h5{
 .capabilities-text {
        padding:138/320 * 100%/2 + 2% 122/426 * 100% /2 + 2%;
         text-align: center;
-         height:22em;
+        
     }
     .capabilities-text p {
         font-family: 'MuseoSans';
@@ -491,7 +491,7 @@ our-cap h5{
 
  .capability-item {
         position: relative;
-	    height:22em;
+	height:22em;
        
     }
 .white p {
@@ -502,7 +502,7 @@ our-cap h5{
 }
 .capabilities-text.white{
     @extend .capabilities-text;
-   
+    height:22em;
 }
 .capability-svg {
         //@extend .capabilities-text;
