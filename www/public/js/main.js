@@ -6,7 +6,8 @@ $('.team-pic').hover(function(){
 });
 
 $('.work-prof').hover(function(){
-    $(this).children(".workhover").toggleClass('appear-work');
+    console.log("Here is hover!");
+    $(this).find(".workhover").toggleClass('appear-work');
     $(this).find(".lookfor").toggleClass('appear-work');
     $(this).find(".clientprof").toggleClass('appear-work');
 });
@@ -110,7 +111,7 @@ $("#contact-info.full-width").click(function() {
 });
 
 $(function(){
-      $(".contact-typed-text").typed({
+      $(".joined-typed-text").typed({
         strings: ["If you like coffee", "If you sing in the shower", "If you’re hot",
 "If you stalk people","If you’re feeling the pressure", "If you’re lonely", "If you hate traffic", "If you like cats", "If you’re cranky", "If you like dogs","If you want this to end","If you’re tired","If you like Putin", "If you like minions", "If your phone’s running our of charge", "If you’re just curious", "If you’re bored"],
         loop: true,

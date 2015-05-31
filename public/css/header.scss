@@ -167,24 +167,27 @@
 }
 
 .social-icons-menu {
- text-align: center;
- width:100%;
+ width:38%;
  bottom: 9%;
+ left:34%;
  position: absolute;
     
 }
 
 .social-icons-menu > .text-align {
- display: inline-flex;
+ display: flex;
+ -moz-display:flex;
+ -webkit-display:flex;
 }
 
-.social-icons-menu ul li {
+.social-icons-menu ul li i {
 width: 4.5vw;
 color: rgba(255,255,255,0.55);
 font-size: 3vh;
+
 }
 
-.social-icons-menu ul li:hover {
+.social-icons-menu ul li i:hover {
     color:  rgba(255,255,255,1);
 }
 

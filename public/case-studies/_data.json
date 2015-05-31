@@ -8,9 +8,67 @@
   },
  "i-am-real": {
     "title": "I am Real | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
-    "description": "This is my description",
+    "description": "TBy executing a Facebook campaign, WebAble Digital helped build a community of 80,000 juice lovers which drove sales, in-store & on bottleoffun.com.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+ "dell": {
+    "title": "Dell | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "WebAble Digital's campaign for Dell generated 99k clicks on their landing page leading to a whooping 3,800 orders & sales of over BDT 120m in 25 days.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "champs21": {
+    "title": "Champs21 | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "WebAble Digital drove 2,601 downloads of the Spelling Bee - 'Spell Champs' app within 30 days with a cost per user acquisition of USD .70 (CPA)",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "kaspersky": {
+    "title": "Kasperskey | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description":"The campaign had generated 70,000 clicks and 5,000 sign-ups. Kaspersky Labs took over social media for the day, courtesy of WebAble Digital.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "aarong": {
+    "title": "Aarong | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description":"The social media campaign by WebAble Digital served 1,000,000 impressions to 600K Bangladeshis across Facebook and G&R to drive 40,000 actions.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "ra": {
+    "title": "Rahimafrooz | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "An omni-channel campaign by WebAble Digital that generated 60 unique stories, engaged 2 million Bangladeshis and drove 200,000 social media actions.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "preetom": {
+    "title": "Preetom | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "WebAble Digital's viral Facebook campaign that generated 305 written reviews and 5 video reviews for the popular burger chain, Preetom.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "jaago": {
+    "title": "JAAGO | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "A global scale digital campaign by WebAble Digital that led to 235 sponsors and BDT 42 million annual sponsorship revenue for the JAAGO Foundation.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "cm": {
+    "title": "CM Petrol | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "CM petrol's social media campaign by WebAble Digital was the first of its kind in Bangladesh as octane sales increased by 20% within the month.",
     "type": "website",
     "image-url": "",
     "url": "http://webable.digital/case-studies" 
  }
+    
+
 }
